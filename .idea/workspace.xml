@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a03ce07a-58d6-4813-a6c8-4da89778f04d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/FindDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedlist/SortList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/linkedlist/SortList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/array/FindDuplicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/array/FindDuplicate.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +42,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindDuplicate">
+  <component name="RunManager" selected="Application.SortList">
     <configuration name="FindDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.FindDuplicate" />
       <module name="algorithm" />
@@ -67,8 +69,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.SortList" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortList" />
         <item itemvalue="Application.FindDuplicate" />
         <item itemvalue="Application.ReverseList" />
       </list>
@@ -91,7 +107,7 @@
       <workItem from="1595064397094" duration="102000" />
       <workItem from="1595505665348" duration="7955000" />
       <workItem from="1596624804463" duration="7223000" />
-      <workItem from="1596678287500" duration="5969000" />
+      <workItem from="1596678287500" duration="15185000" />
     </task>
     <servers />
   </component>
@@ -123,6 +139,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/linkedlist/ReverseList.java</url>
           <line>107</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/linkedlist/SortList.java</url>
+          <line>123</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/linkedlist/SortList.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/linkedlist/SortList.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
