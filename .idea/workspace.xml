@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a03ce07a-58d6-4813-a6c8-4da89778f04d" name="Default Changelist" comment="" />
+    <list default="true" id="a03ce07a-58d6-4813-a6c8-4da89778f04d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/CanPartition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,7 +122,7 @@
       <workItem from="1595505665348" duration="7955000" />
       <workItem from="1596624804463" duration="7223000" />
       <workItem from="1596678287500" duration="15185000" />
-      <workItem from="1600246045262" duration="372000" />
+      <workItem from="1600246045262" duration="674000" />
     </task>
     <servers />
   </component>
