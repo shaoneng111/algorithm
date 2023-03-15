@@ -22,7 +22,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a03ce07a-58d6-4813-a6c8-4da89778f04d" name="Default Changelist" comment="" />
+    <list default="true" id="a03ce07a-58d6-4813-a6c8-4da89778f04d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Problem1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/array/FindDuplicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/array/FindDuplicate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/concurrent/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrent/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/linkedlist/HasCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/linkedlist/HasCycle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/linkedlist/ReverseList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/linkedlist/ReverseList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/linkedlist/SortList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/linkedlist/SortList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/linkedlist/common/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/linkedlist/common/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tree/IsBalancedTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tree/IsBalancedTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tree/IsValidBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tree/IsValidBST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tree/MaxDepthTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tree/MaxDepthTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tree/ZigzagLevelOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tree/ZigzagLevelOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tree/common/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tree/common/TreeNode.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,12 +55,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-      </MavenGeneralSettings>
-    </option>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1eWq8oQAOErPQToMSVc5hVazkqf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -52,14 +64,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
-    <property name="nodejs_package_manager_path" value="npm" />
-  </component>
-  <component name="RunManager" selected="Application.SortList">
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/zhouyuan/Study/Code/algorithm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Problem1">
     <configuration name="FindDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.FindDuplicate" />
       <module name="algorithm" />
@@ -69,6 +85,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem1" />
+      <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,6 +124,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem1" />
         <item itemvalue="Application.SortList" />
         <item itemvalue="Application.FindDuplicate" />
         <item itemvalue="Application.ReverseList" />
@@ -130,6 +154,8 @@
       <workItem from="1600254282814" duration="1085000" />
       <workItem from="1600258332022" duration="537000" />
       <workItem from="1600260475482" duration="518000" />
+      <workItem from="1678879087691" duration="17000" />
+      <workItem from="1678879187125" duration="1858000" />
     </task>
     <servers />
   </component>
@@ -146,7 +172,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
