@@ -5,9 +5,6 @@ package linkedlist;
 
 import linkedlist.common.ListNode;
 
-import java.lang.reflect.Parameter;
-import java.util.List;
-
 /**
  * 206.反转链表
  *
