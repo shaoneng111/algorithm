@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a03ce07a-58d6-4813-a6c8-4da89778f04d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Problem5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Problem2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,22 +63,16 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Problem5">
-    <configuration name="FindDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.FindDuplicate" />
+  <component name="RunManager" selected="Application.Problem2">
+    <configuration name="Problem1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem1" />
       <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Problem1" />
+    <configuration name="Problem2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem2" />
       <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem2" />
         <item itemvalue="Application.Problem5" />
         <item itemvalue="Application.Problem3" />
         <item itemvalue="Application.Problem1" />
         <item itemvalue="Application.SortList" />
-        <item itemvalue="Application.FindDuplicate" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +187,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Problem5.java</url>
-          <line>51</line>
+          <line>52</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -205,6 +199,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Problem5.java</url>
           <line>21</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Problem2.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
