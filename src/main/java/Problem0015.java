@@ -36,7 +36,6 @@ public class Problem0015 {
 
 
     public static List<List<Integer>> threeSum(int[] nums) {
-
         List<List<Integer>> resultList = new ArrayList<>();
 
         Arrays.sort(nums);
@@ -44,11 +43,11 @@ public class Problem0015 {
         if (len < 3) {
             return new ArrayList<>();
         }
-//        if (len == 3 && nums[0] + nums[1] + nums[2] == 0) {
-//            List<Integer> result = Arrays.asList(nums[0], nums[1], nums[2]);
-//            resultList.add(result);
-//            return resultList;
-//        }
+        if (len == 3 && nums[0] + nums[1] + nums[2] == 0) {
+            List<Integer> result = Arrays.asList(nums[0], nums[1], nums[2]);
+            resultList.add(result);
+            return resultList;
+        }
 
         for (int place = 0; place <= len-3; place++) {
             if (place >= 1 && nums[place] == nums[place-1]) {
@@ -57,15 +56,11 @@ public class Problem0015 {
             int start = place+1;
             while (start < len-2) {
                 int end = len-1;
-
                 while (end >= place+2) {
-                    while (end >= place+2 && nums[end] == nums[end-1]) {
-                        end--;
-                    }
                     if (nums[place] + nums[start] + nums[end] == 0) {
                         List<Integer> result = Arrays.asList(nums[place], nums[start], nums[end]);
                         resultList.add(result);
-                        while (start <= len-2 && nums[start+1] == nums[start]) {
+                        while (nums[start+1] == nums[start]) {
                             start++;
                         }
                     }
@@ -81,8 +76,8 @@ public class Problem0015 {
 
     public static void main(String[] args) {
 
-//        int[] nums = {-1,0,1,2,-1,-4};
-//        System.out.println(threeSum(nums));
+        int[] nums = {-1,0,1,2,-1,-4};
+        System.out.println(threeSum(nums));
 
         int[] nums1 = {0,0,0};
         System.out.println(threeSum(nums1));
