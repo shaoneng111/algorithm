@@ -1,3 +1,5 @@
+import linkedlist.common.ListNode;
+
 /**
  * 2. 两数相加
  *
@@ -28,18 +30,6 @@
  *
  */
 public class Problem2 {
-     static class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int val) {
-            this.val = val;
-        }
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
 
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode start = new ListNode();
